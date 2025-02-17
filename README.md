@@ -1,7 +1,12 @@
 ## About The Project
 
 This is a simple to do list app I have created using HTML, CSS and JS.
+
+
 ![To Do List App](https://github.com/shihabhasan0161/To-Do-List-App/blob/main/todolistapp.png?raw=true)
+
+## Demo
+You can view a demo of this app here: https://to-do-list-app-shihab.vercel.app/
 
 Here's what you can do with this app:
 1. You can add a task by clicking on the ➕ icon
@@ -14,9 +19,6 @@ I will try to add more functionalities in the future.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 In order to run this app locally, Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/shihabhasan0161/To-Do-List-App.git
