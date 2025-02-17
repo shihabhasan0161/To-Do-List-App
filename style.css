@@ -1,0 +1,152 @@
+:root {
+  --primary: #4f46e5;
+  --secondary: #818cf8;
+  --bg-gradient: linear-gradient(135deg, #4f46e5, #818cf8);
+  --text-dark: #1e293b;
+  --text-light: #64748b;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+}
+
+body {
+  background: var(--bg-gradient);
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.task-manager {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: var(--primary);
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.task-input {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.input-box {
+  width: 92%;
+  padding: 1rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.add-btn {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.add-btn:hover {
+  transform: translateY(-50%) scale(1.05);
+}
+
+.task-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  background: #f8fafc;
+  transition: transform 0.2s ease;
+}
+
+.todo-container:hover {
+  transform: translateX(5px);
+}
+
+.todo-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  margin-left: auto;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.todo-container:hover .remove-btn {
+  opacity: 1;
+}
+
+.status-bar {
+  margin-top: 1.5rem;
+  border-top: 2px solid var(--border);
+  padding-top: 1rem;
+}
+
+.status-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-light);
+}
+
+#deleteButton {
+  background: none;
+  border: none;
+  color: var(--text-light);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#deleteButton:hover {
+  color: #ef4444;
+}
+
+.signature {
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.developer {
+  font-weight: bold;
+}
+
+.disabled {
+  text-decoration: line-through;
+  color: var(--text-light);
+}

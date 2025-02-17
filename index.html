@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>To Do List App</title>
+  </head>
+  <body>
+    <section class="task-manager">
+      <h2>My Daily Tasks</h2>
+      <div class="task-input">
+        <input
+          type="text"
+          class="input-box"
+          id="todoInput"
+          placeholder="What's on your mind?"
+        />
+        <button class="add-btn">➕</button>
+      </div>
+      <div class="task-list scroll">
+        <div id="todoList"></div>
+      </div>
+      <div class="status-bar">
+        <hr />
+        <div class="status-container">
+          <p><span id="todoCount">0</span> tasks remaining</p>
+          <button id="deleteButton">Clear All 🗑️</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="signature">
+        <p>Crafted with 💻 by</p>
+        <p class="developer">Shihab Hasan</p>
+      </div>
+    </footer>
+  </body>
+</html>
