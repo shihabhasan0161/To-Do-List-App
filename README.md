@@ -1,6 +1,8 @@
 ## About The Project
 
 This is a simple to do list app I have created using HTML, CSS and JS.
+
+
 ![To Do List App](https://github.com/shihabhasan0161/To-Do-List-App/blob/main/todolistapp.png?raw=true)
 
 Here's what you can do with this app:
@@ -13,9 +15,6 @@ Here's what you can do with this app:
 I will try to add more functionalities in the future.
 
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 In order to run this app locally, Clone the repo
    ```sh
