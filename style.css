@@ -142,6 +142,11 @@ h2 {
   font-size: 0.875rem;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .developer {
   font-weight: bold;
 }
