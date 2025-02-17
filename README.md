@@ -18,4 +18,4 @@ I will try to add more functionalities in the future.
 
 In order to run this app locally, Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/shihabhasan0161/To-Do-List-App.git
