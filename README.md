@@ -5,6 +5,9 @@ This is a simple to do list app I have created using HTML, CSS and JS.
 
 ![To Do List App](https://github.com/shihabhasan0161/To-Do-List-App/blob/main/todolistapp.png?raw=true)
 
+## Demo
+You can view a demo of this app here: https://to-do-list-app-shihab.vercel.app/
+
 Here's what you can do with this app:
 1. You can add a task by clicking on the ➕ icon
 2. You can remove a task by clicking on the 🗑️ icon
